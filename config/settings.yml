@@ -1,0 +1,37 @@
+# default directories
+directories:
+  APP:                 application
+  WWW:                 public
+  CONFIG:              config
+  CACHE:               cache
+  GF:                  GF
+  MODELS:              models
+  MODULES:             modules
+  DEFAULT_MODULE:      Main
+
+# settings section
+settings:
+  # when false, working only Main module
+  MODULES_ENABLED:     false
+
+  # when false, classpaths.cache is not used by autoloader
+  # "true" is recommended for wide projects
+  CACHE_ENABLED:       false
+
+  # Main layout for app views
+  LAYOUT_MAIN:         default
+
+  SITE_TITLE:          Словарь
+
+  # The placeholder in site layout, which will be replaced with page content
+  CONTENT_PLACEHOLDER: SITE_CONTENT
+
+  # Choose type of application environment
+  ENVIRONMENT:         development
+
+  # Here you can define any custom constants for your application.
+  # For example:
+  # Make some group for constants
+  sub-settings:
+    # Define some CONSTANT: value pair
+    SOME_CONSTANT1: value1
